@@ -1,0 +1,178 @@
+.container{width: 366px;
+  overflow: hidden;
+  margin:0px auto 0 auto;
+  background-color: rgba(255, 255, 255, 0.644);
+}
+
+html {
+  background: linear-gradient(rgb(0, 60, 255),rgba(255, 255, 255, 0.719),rgb(0, 60, 255));
+}
+
+.scoreboard{
+  justify-content: space-evenly;
+  display:flex;
+  font-size:18px;
+}
+
+.scoreboard span{
+  margin-left:35%
+}
+
+.title{
+  text-align: center;
+  font-size:52px;
+}
+
+.container span{
+  display: block;
+  text-align: center;
+  font-family: sans-serif;
+  color: black;
+  font-size:40px;
+  background: rgb(0, 102, 255);
+  border-top: 1px solid black;
+  border-right: 1px solid 
+  black;
+  border-left: 1px solid black;
+ }
+
+.container .box{float: left;
+ width: 120px;
+ height: 120px;
+ border: 1px solid #000;
+ transition: all .5s ease-in-out;
+ font-family: sans-serif; 
+ font-size: 95px;
+ text-align: center;
+ line-height: 120px; 
+ cursor: pointer;
+  }
+
+.container .box:hover{background: rgba(182, 182, 182, 0.829);
+  color: black;
+  }
+
+button{background: rgb(0, 102, 255);
+color: rgb(0, 0, 0);
+font-weight: bold;
+border: 2px solid black;
+cursor: pointer; 
+font-size: 18px;
+display: block;
+margin: 5px auto;
+}
+
+.win{background: rgb(0, 102, 255); 
+}
+
+@media (max-width:1200px){
+  .container{
+    width: 637px;  
+  }
+  
+  
+  .scoreboard{
+    font-size:26px;
+  }
+
+  .title{
+    font-size:84px;
+    margin-bottom:5%;
+  }
+  
+  .container span{
+    font-size:64px;
+   }
+  
+  .container .box{
+   width: 210px;
+   height: 210px;
+   font-size: 120px;
+   line-height: 200px; 
+    }
+  
+}
+@media (orientation:landscape) and (max-width:1200px){
+  .container{
+    width: 446px;
+  }
+
+  .scoreboard{
+    font-size:24px;
+  }
+
+  .title{
+    font-size:64px;
+    margin-bottom:1%;
+  }
+  
+  .container span{
+    font-size:52px; 
+   }
+  
+  .container .box{
+   width: 146px;
+   height: 146px;
+   font-size: 120px;
+   line-height: 146px; 
+    }
+  
+}
+@media all and (max-width:500px){
+  .container{
+    width: 286px;
+  }
+  
+  .scoreboard{
+    font-size:16px;
+  }
+
+  .title{
+    font-size:64px;
+    margin-bottom:5%;
+    margin-top:5%;
+  }
+  
+  .container span{
+    font-size:24px;
+   }
+  
+  .container .box{
+   width: 93px;
+   height: 93px;
+   font-size: 64px;
+   line-height: 80px; 
+    }
+  
+  button{
+  font-size: 12px;
+  }
+}
+@media (orientation:landscape) and (max-width:850px){
+  .container{
+    width: 207px;
+  }
+  
+  .scoreboard{
+    font-size:10px;
+  }
+
+  .title{
+    font-size:24px;  
+  }
+  
+  .container span{
+    font-size:24px;
+   }
+  
+  .container .box{
+   width: 67px;
+   height: 66px;
+   font-size: 70px;
+   line-height: 80px; 
+    }
+  
+  button{ 
+  font-size: 10px;
+  }
+}
