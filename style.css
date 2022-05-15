@@ -106,6 +106,7 @@ body{
 @media screen and (max-width: 1280px) {
     #container-board{
     width:450px;
+    box-shadow: 0px 0px 0px black;
     }
     .box {
     height:120px;
@@ -118,7 +119,8 @@ body{
         padding-right:680px;
     }
     #board-footer{
-        margin: 2% auto;
+        margin: 1% auto;
+        box-shadow: 0px 0px 0px black;
     }
 }
 @media screen and (max-width:992px){
@@ -152,9 +154,10 @@ body{
                 display:none;
             }
             #board-head{
-                margin-top:50px;
+                margin-top:30px;
             }
             #board-footer{
                 width:150px;
+                margin: 30px auto;
             }
 }
